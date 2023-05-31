@@ -1,0 +1,80 @@
+body {
+    background-image: url("/Juego/img/ninja1.jpg");
+   
+  }
+  
+  header {
+    width: auto;
+    height: 200px;
+  }
+  
+  header h1 {
+    background-color: rgb(234, 81, 16);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+  }
+  
+  main {
+    
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: calc(80vh - 190px); 
+  }
+  
+  .section1 {
+    background-color: rgb(225, 98, 52);
+    padding: 0 10px 10px 10px;
+    border-radius: 8px;
+  }
+  
+  button {
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  .section2 {
+    background-color: rgb(172, 42, 16);
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 250px;
+    height: 400px;
+    padding: 0 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .estadisticas {
+    border: 1px solid white;
+    height: 105px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+  }
+  
+  footer {
+    top: auto;
+    text-align: center;
+    background-color: rgb(234, 81, 16);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    width: 80%;
+  }
